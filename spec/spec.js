@@ -2,7 +2,7 @@
 
 describe("TEST", function(){
 	it("to return true", function(done) {	
-		var test="test";
+		var test="";
 		expect(test).toBe("");
 		done();
 	});

@@ -9,4 +9,4 @@ deploy:
   on:
     repo: geektoni/jasmine-test
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - ./node_modules/.bin/codecov -e TRAVIS_NODE_VERSION -f coverage/coverage.json
