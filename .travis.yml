@@ -8,3 +8,5 @@ deploy:
   app: jasmine-test
   on:
     repo: geektoni/jasmine-test
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
