@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- '4.2'
+deploy:
+  provider: heroku
+  api_key:
+    secure: F3pWiBHh/YwtDWkOZp0ZBcsBwg7H5f6pJpw5LtdzHiWRPYOTIkAvCjSKM03zOQ8Uw2ViwlAZqyPlvMc1o07F0wbaI+iXV6qqBCx/NeXC7ai1PshqD5gLofzWv5aeN2pAQ8sj10nlggua0yMAQGFiR11jGGTG1agKJ6BVu0YbfYge/l+NTuaQ+RuP9X/bcxJWQiPKqUO8SVIKkhwAGzhm7m93eWWEZFnF6GteiSvAHJMY4Q3bd+4/L1cOwP3pcmfWBBESL8fl5vWc9WUDis8S5vbQ4sP6o0b/sVvhwxoxBbsQGBoLG9LLJNSSGdKWrH58T+GXE7DZG5gpJop1n1iJBwaIKXt078A6CLQX1Ifazb2hVhJnDoT9xnwnfVEkZYux3ATDiCWYYRfZe+oNjHTG6uhkk+fr/7Zi7yt2rarhE5o0dffDnglAPdSoBjroZCC9EANwtU9eOH+qwMy3wdqITWiLY8/3J1Bjec/91LlulD8HWVknD5ibM2dbIfcaS3s9In4ZgmZod84m0Z2+IOgo6kOKcDteMlY4GlDwg1S2JhjLE8pH8d1rbPcqgdmJwdZdRFRWnClKlpgMcOw1IZkmF/cKO6DM+ag4AOCGn2DWBIXu7XhXxHf6iwXTkv3K/v4sfsMYg/mR6LszGEGUcDPQGrcLarW4bKnxeQ64kXxhF5Q=
+  app: jasmine-test
+  on:
+    repo: geektoni/jasmine-test
